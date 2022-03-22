@@ -1,37 +1,186 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Home | Yt converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-dark  ">
+    
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary fw-bold" >Yt converter</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/yashGawande" target="blank">About us</a>
+                </li>
+                 
+            </div>
+          </div>
+        </div>
+    </nav>
 
-You can use the [editor on GitHub](https://github.com/yashGawande/website-yt-video-downloader/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <div class="container-fluid" style="margin-top: 10vh; margin-bottom: 10vh;">
+        
+        <div class="row col-sm-12 position-sticky" >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            <div class="col-sm-9">
+                <div class="card bg-dark bg-gradient m-2 ">
+                    <div class="card-header text-info fw-bold fs-3">Free & Powerfull tool at your glance ! </div>
+                    <div class="card-body" >
+                        <img src="appdemo.png" class="img-thumbnail card-img" style="height: 35vw; width:100%; ">
+                    </div>
+                </div>    
+            </div>
 
-### Markdown
+            <div class="col-sm-3">
+                <div class="card bg-dark bg-gradient m-2 ">
+                    <div class="card-header text-info fw-bold fs-4 text-center">Download Now !</div>
+                    <div class="card-body">
+                         <img src="win10Nothover.png" alt="win10 logo" id="imgwin10" class="w-50" style="margin: auto; margin-left: 7vh;">
+                         <br>
+                         <button class="btn btn-outline-primary  m-3 align-items-center mx-5"  id="downloadBtn">Download for windows</button>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+    <hr class="bg-white">
+    <br>
+    <br>
+    <br>
+    <div class="card-group container d-flex ">
+        <div class="card mx-1 bg-dark text-white bg-gradient">
+          <div class="card-header fw-bold text-white">How to Download Youtube Videos?</div>
+          <div class="card-body">
+            <ol class="list-group list-group-numbered ">
+                <li class="">Download yt video downloader app .</li>
+                <br>
+                <li class="">Open it and Copy and Paste YouTube URL into the search box, then click "Start" button.</li>
+                <br>
+                <li class="">Then your video will be fetch and then click  "Download" button.</li>
+                <br>
+                <li class="">Once the video gets downloaded, you can play it whenever and wherever you want.</li>
+                <br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            </ol>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card mx-1 bg-dark text-info bg-gradient">
+            <div class="card-header fw-bold text-white">Free YouTube Video Downloader</div>
+            <div class="card-body text-white">
+                <p class="text">Yt video downloader is a free and unlimited YouTube video downloader. You can easily download thousands of YouTube videos in high quality formats. We provide the fastest and most convenient way to download YouTube videos you will ever know. You can save videos and songs to your computer or mobile phone for offline viewing.</p>
+            </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 10 mins ago</small>
+          </div>
+        </div>
+        <div class="card mx-1 bg-dark text-info bg-gradient">
+            <div class="card-header fw-bold text-white">Why use Yt video downloader?</div>
+            <div class="card-body text-white">
+              <ol class="list-group list-group-numbered ">
+                  <li class="">Super fast YouTube video conversion and download speed.</li>
+                  <br>
+                  <li class="">Simple to use with just a few clicks</li>
+                  <br>
+                  <li class="">downloads video in .MP4 with highest quality.</li>
+                  <br>
+                  <li class="">Always free and unlimited to download</li>
+                  <br>
+  
+              </ol>
+            </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 10 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-white">
+      <br>
+        <hr class="bg-white">
+      <div class="container mt-5">
+        <h2 class="text-info">How to use ?</h2>
+        <br><br>
+        <div class="accordion bg-dark bg-gradient text-white" >
+            <div class="accordion-item bg-dark bg-gradient">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-dark bg-gradient text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Where are Youtube videos stored?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-white-50">
+                    Video you've downloaded are automatically saved in the videos folder on your PC. You will get popup displaying the path of your video .
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-dark bg-gradient">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-dark bg-gradient text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Is this app add free ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark bg-gradient text-white-50">
+                  Yes of course this app is totaly add free !
+                </div>
+              </div>
+            </div>
 
-```markdown
-Syntax highlighted code block
+            <div class="accordion-item bg-dark bg-gradient">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-dark bg-gradient text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Is this app virus free?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark bg-gradient text-white-50">
+                  Yes of course this app is totaly virus free and it is tested on <span><a href="https://www.virustotal.com/" class="btn-link">virustotal.com</a></span>
+                </div>
+              </div>
+            </div>
+      </div>
+      <hr class="text-white ">
+      <br>
+      <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-white container-flex">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted">with <span style="color: red;">❤</span> By Yash Gawande on Github </span>
+          </div>     
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+               <a href="https://github.com" target="blank" class="logo">
+                    <li style="cursor:pointer; color: white;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg></li>
+                </a>
 
-# Header 1
-## Header 2
-### Header 3
+                <a href="mailto:yashgawande408@gmail.com">
+                    <li class="mx-3 logo" style="cursor:pointer; color: white;"   >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                            </svg>
+                    </li>
+                </a>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yashGawande/website-yt-video-downloader/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+          </ul>
+          
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
